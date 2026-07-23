@@ -31,3 +31,5 @@ export default function Page({ time, delayMs }) {
     </TestResult>
   );
 }
+
+// build-trigger: redeploy to dedicated preview env for MC isolation
